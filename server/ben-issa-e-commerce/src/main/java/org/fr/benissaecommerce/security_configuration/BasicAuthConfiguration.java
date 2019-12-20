@@ -36,4 +36,15 @@ public class BasicAuthConfiguration
                 .and()
                 .httpBasic();
     }
+
+//    Dans la section II-B de notre article, nous avions identifié quatre domaines fonctionnels
+//    pour notre application de gestion de la bibliothèque : Book, Customer, Loan et Category.
+//    Nous avons aussi fait le choix d'utiliser une architecture d'organisation du projet de type
+//    package by feauture. Pour rappel, cette architecture se distingue de l'architecture n-tiers (
+//
+//
+//    très répandue) par le fait qu'elle prescrit la mise de toutes classes Java d'un domaine fonctionnel
+//    au même niveau dans le package dédié, contrastant ainsi avec une organisation en couches. Au terme de
+//    notre développement, notre projet library devra ressembler à la figure ci-dessous et cela représente notre objectif.
 }
+
